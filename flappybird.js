@@ -39,6 +39,6 @@ function FlappyBird(img, x, y, w, h)
 		context.fillStyle = "#FF0000";
 		context.fillRect(this.x, this.y, this.w, this.h);
 		context.font = "30px Arial";
-		context.fillText("Score: " + this.score.toString(), 10, 50);
+		context.fillText("Score: " + this.score.toString(), 10, 30);
 	}
 }
